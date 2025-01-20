@@ -20,10 +20,12 @@ function setActiveSlideById(id) {
     activeId = id; // Обновляем активный слайд
 
     slidesNodes[currentId].classList.remove(ACTIVE_SLIDE_CLASSNAME); // Убираем активный класс у текущего слайда
-    slidesNodes[currentId].style.left = '-100%'; // Устанавливаем его влево и делаем невидимым
+    slidesNodes[currentId].style.transform = 'translateX(-100%)'; // Перемещаем его влево
+    slidesNodes[currentId].style.opacity = '0'; // Делаем текущий слайд невидимым
 
     slidesNodes[activeId].classList.add(ACTIVE_SLIDE_CLASSNAME); // Добавляем активный класс новому слайду
-    slidesNodes[activeId].style.left = '0'; // Перемещаем новый слайд на место
+    slidesNodes[activeId].style.transform = 'translateX(0)'; // Перемещаем новый слайд на место
+    slidesNodes[activeId].style.opacity = '1'; // Делаем новый слайд видимым
 }
 
 // Функции для получения предыдущего и следующего ID

@@ -1,3 +1,8 @@
+html, body {
+    height: 100%; 
+    overflow-x: hidden; /* Обычно это нужно для предотвращения горизонтальной прокрутки */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,18 +29,8 @@ body {
     margin: 0 auto;
 }
 
-section, 
-.container {
-    margin: 0 auto;
-}
-
-section {
-    width: 1200px;
-}
-
 .main {
     position: relative;
-    overflow: hidden;
 }
 
 .header__logo {
@@ -83,7 +78,7 @@ section {
     padding: 40px 0;
 }
 
-.container {
+.header .container {
     display: flex;
     align-items: center;
 }
@@ -111,7 +106,7 @@ section {
     height: 40px;
 }
 
-.menu-item {
+.menu-item a {
     font-size: 16px;
     line-height: 130%;
     text-decoration: none;
@@ -119,14 +114,9 @@ section {
     color: #5D3427;
 }
   
-.menu-item:hover {
+.menu-item a:hover {
     border-bottom: 2px solid #5D3427;
 }
-  
-.nav-link:hover {
-    opacity: 0.5;
-}
-
 
 .main-content {
     padding-top: 140px;
@@ -208,17 +198,27 @@ section {
     width: 590px;
     height: 453px;
 }
+
+.gallery__slides {
+    position: relative;
+    overflow: hidden; /* Скрыть выходящие за пределы элементы */
+    width: 100%; /* Ширина контейнера */
+    height: 100%; /* Высота контейнера */
+}
+
 .gallery__slide {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
-    left: 0;
+    right: 0;
     opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .gallery__slide_active {
     opacity: 1;
+    right: 0;
 }
 
 .gallery_box {
@@ -244,14 +244,6 @@ section {
 
 .gallery_image_five {
     background-image: url("./images/image_1.png");
-}
-
-section {
-    width: 1200px;
-}
-
-.section-long {
-    padding-bottom: 150px;
 }
 
 .programms {
@@ -287,4 +279,30 @@ section {
 
 .programm__text:hover a {
     border-bottom: 3px solid #5D3427;
+}
+
+
+.line1 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: calc(100% - 960px);
+}
+
+.line2 {
+    position: absolute;
+    z-index: -1;
+    top: -40px; /* или любое значение, которое вам нужно */
+    left: 0;
+    width: 100%; /* Занять полную ширину */
+    height: auto; /* Высота будет пропорциональна ширине */
+}
+
+.order {
+    position: relative;
+}
+
+.main-programm {
+    padding-bottom: 150px;
+    position: relative;
 }

@@ -18,14 +18,14 @@
                 </div>
                 <nav class="menu">
                     <ul class="menu-list">
-                        <li>
-                            <a class="menu-item">Программы</a>
+                        <li class="menu-item">
+                            <a data-link="programm">Программы</a>
                         </li>
-                        <li>
-                            <a class="menu-item">О нас</a>
+                        <li class="menu-item">
+                            <a data-link="order">О нас</a>
                         </li>
-                        <li>
-                            <a class="menu-item">Личный кабинет</a>
+                        <li class="menu-item">
+                            <a data-link="account">Личный кабинет</a>
                         </li>
                     </ul>
                 </nav>
@@ -34,6 +34,7 @@
 
         <section class="main-content">
             <div class="container">
+                <img src="images/line1.png" alt="line" class="line1">
                 <div class="main-info">
                     <h1 class="main-title">Программа переподготовки сотрудников</h1>
                     <p class="main-text">Наша программа профессионального обучения, 
@@ -54,89 +55,94 @@
             </div>
         </section>
 
-            <section class="section-long">
+            <section class="main-programm" id="programm">
                 <h2 class="common-title" id="programms">Программы переподготовки</h2>
-                <ul class="programms">
-                    <li class="programm">                    
-                        <div class="programm__text">
-                            <a href="">Фрезеровщик</a>
-                        </div>
-                    </li>
-                    <li class="programm">
-                        <div class="programm__text">
-                            <a href="">Вальцовщик</a>
-                        </div>
-                    </li>
-                    <li class="programm">
-                        <div class="programm__text">
-                            <a href="">Токарь</a>
-                        </div>
-                    </li>
-                    <li class="programm">
-                        <div class="programm__text">
-                            <a href="">Электромонтёр</a>
-                        </div>
-                    </li>
-                    <li class="programm">
-                        <div class="programm__text">
-                            <a href="">Слесарь-ремонтник</a>
-                        </div>
-                    </li>
-                    <li class="programm">
-                        <div class="programm__text">
-                            <a href="">Крановщик</a>
-                        </div>
-                    </li>
-                </ul> 
+                <img src="images/line2.png" alt="line" class="line2">
+                <div class="container">
+                    <ul class="programms">
+                        <li class="programm">                    
+                            <div class="programm__text">
+                                <a href="">Фрезеровщик</a>
+                            </div>
+                        </li>
+                        <li class="programm">
+                            <div class="programm__text">
+                                <a href="">Вальцовщик</a>
+                            </div>
+                        </li>
+                        <li class="programm">
+                            <div class="programm__text">
+                                <a href="">Токарь</a>
+                            </div>
+                        </li>
+                        <li class="programm">
+                            <div class="programm__text">
+                                <a href="">Электромонтёр</a>
+                            </div>
+                        </li>
+                        <li class="programm">
+                            <div class="programm__text">
+                                <a href="">Слесарь-ремонтник</a>
+                            </div>
+                        </li>
+                        <li class="programm">
+                            <div class="programm__text">
+                                <a href="">Крановщик</a>
+                            </div>
+                        </li>
+                    </ul> 
+                </div>
             </section>
 
 
-        <section class="section-long">
-            <h2 class="common-title">Уральская сталь</h2>
-            <ul class="galleries">
-                <li class="gallery gallery-item-orange">
-                    <div class="gallery-item-title">
-                        Уральская сталь — это металлургический комбинат
-                    </div>
-                    <div class="gallery-item-text">Это один 
-                        из ведущих производителей чёрной металлургии в России. 
-                        Уральская сталь имеет богатую историю и множество достижений. 
-                        Комбинат активно внедряет современные технологии и 
-                        инновации, что позволяет ему оставаться конкурентоспособным 
-                        на мировом рынке. Уральская сталь экспортирует свою продукцию 
-                        в различные страны мира, обеспечивая рабочие места и 
-                        развитие экономики региона.
-                    </div>
-                </li>
-                <li class="gallery">
-                    <div class="gallery__slides">
-                        <div class="gallery__slide gallery__slide_active">
-                            <div class="gallery_box gallery_image_title">
+        <section class="order" id="order">
+            <div class="container">
+                <h2 class="common-title">Уральская сталь</h2>
+                <ul class="galleries">
+                    <li class="gallery gallery-item-orange">
+                        <div class="gallery-item-title">
+                            Уральская сталь — это металлургический комбинат
+                        </div>
+                        <div class="gallery-item-text">Это один 
+                            из ведущих производителей чёрной металлургии в России. 
+                            Уральская сталь имеет богатую историю и множество достижений. 
+                            Комбинат активно внедряет современные технологии и 
+                            инновации, что позволяет ему оставаться конкурентоспособным 
+                            на мировом рынке. Уральская сталь экспортирует свою продукцию 
+                            в различные страны мира, обеспечивая рабочие места и 
+                            развитие экономики региона.
+                        </div>
+                    </li>
+                    <li class="gallery">
+                        <div class="gallery__slides">
+                            <div class="gallery__slide gallery__slide_active">
+                                <div class="gallery_box gallery_image_title">
+                                </div>
+                            </div>
+                            <div class="gallery__slide">
+                                <div class="gallery_box gallery_image_second">
+                                </div>
+                            </div>
+                            <div class="gallery__slide">
+                                <div class="gallery_box gallery_image_third">
+                                </div>
+                            </div>
+                            <div class="gallery__slide">
+                                <div class="gallery_box gallery_image_fourth">
+                                </div>
+                            </div>
+                            <div class="gallery__slide">
+                                <div class="gallery_box gallery_image_five">
+                                </div>
                             </div>
                         </div>
-                        <div class="gallery__slide">
-                            <div class="gallery_box gallery_image_second">
-                            </div>
-                        </div>
-                        <div class="gallery__slide">
-                            <div class="gallery_box gallery_image_third">
-                            </div>
-                        </div>
-                        <div class="gallery__slide">
-                            <div class="gallery_box gallery_image_fourth">
-                            </div>
-                        </div>
-                        <div class="gallery__slide">
-                            <div class="gallery_box gallery_image_five">
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
     <script src="gallery.js"></script>
-    <script src="section.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
