@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: 'Steppe-Book';
-    src: url("../fonts/Steppe-Book.ttf");
+    src: url("./fonts/Steppe-Book.ttf");
 }
 
 @font-face {
     font-family: 'Steppe-ExtraBold';
-    src: url("../fonts/Steppe-ExtraBold.ttf");
+    src: url("./fonts/Steppe-ExtraBold.ttf");
 }
 
 body {
@@ -230,20 +230,20 @@ section {
 
 
 .gallery_image_title {
-    background-image: url("../images/image_5.png");
+    background-image: url("./images/image_5.png");
 }
 .gallery_image_second {
-    background-image: url("../images/image_2.png");
+    background-image: url("./images/image_2.png");
 }
 .gallery_image_third {
-    background-image: url("../images/image_3.png");
+    background-image: url("./images/image_3.png");
 }
 .gallery_image_fourth {
-    background-image: url("../images/image_4.png");
+    background-image: url("./images/image_4.png");
 }
 
 .gallery_image_five {
-    background-image: url("../images/image_1.png");
+    background-image: url("./images/image_1.png");
 }
 
 section {
