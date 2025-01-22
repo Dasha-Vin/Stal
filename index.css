@@ -1,7 +1,7 @@
-@import "../styles/header.css";
-@import "../styles/main-content.css";
-@import "../styles/programm.css";
-@import "../styles/love.css";
+@import "./styles/header.css";
+@import "./styles/main-content.css";
+@import "./styles/programm.css";
+@import "./styles/love.css";
 
 html, body {
     height: 100%; 
