@@ -1,0 +1,50 @@
+.main-content {
+    padding-top: 140px;
+    padding-bottom: 150px;
+}
+
+.main-info {
+    max-width: 811px;
+}
+
+.main-title {
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    font-size: 90px;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.main-text {
+    max-width: 697px;
+    font-size: 18px;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+
+.main-image {
+    position: absolute;
+    top: 280px;
+    right: 150px;
+    z-index: -1;
+    width: 800px;
+    height: 450px;
+}
+
+.button {
+    background-color: rgb(255, 129, 12);
+    border-radius: 60px;
+    height: 58px;
+    width: 205px;
+    box-sizing: border-box;
+    padding: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(247, 153, 65, 0.863);
+}
