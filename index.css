@@ -2,6 +2,7 @@
 @import "./styles/main-content.css";
 @import "./styles/programm.css";
 @import "./styles/love.css";
+@import "./styles/burger.css";
 
 html, body {
     height: 100%; 
@@ -94,4 +95,24 @@ body {
     z-index: -1;
     top: -15px; /* или любое значение, которое вам нужно */
     left: -120px;
+}
+
+@media (max-width: 767px) {
+    .common-title {
+        font-size: 45px;
+    }
+    .container {
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .common-title {
+        font-size: 30px;
+    }
+
+    .help {
+        right: 25px;
+        bottom: 25px;
+    }
 }

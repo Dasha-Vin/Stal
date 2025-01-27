@@ -37,3 +37,14 @@
 .programm__text:hover a {
     border-bottom: 3px solid #5D3427;
 }
+
+
+@media (max-width: 767px) {
+    .programms {
+        flex-direction: column;
+    }
+
+    .programm {
+        width: 100%;
+    }
+}

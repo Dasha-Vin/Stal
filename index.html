@@ -29,14 +29,40 @@
                         </li>
                     </ul>
                 </nav>
+                <button class="burger_btn js-burger_btn"></button>
+                <div class="burger js-burger">
+                  <div class="burger_content">
+                    <button class="js-burger_close-btn burger_close-btn">
+                      <img
+                        class="burger__close-image"
+                        src="images/close.png"
+                      />
+                    </button>
+                    <nav class="burger-nav">
+                      <ul class="burger-navList">
+                        <li>
+                          <a class="burger-navItem" data-link="account">Личный кабинет</a>
+                        </li>
+                        <li>
+                          <a class="burger-navItem" data-link="programm">Программы</a>
+                        </li>
+                        <li>
+                          <a class="burger-navItem" data-link="love">О нас</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
             </div>
         </header>
 
         <section class="main-content">
             <div class="container">
                 <img src="images/line1.png" alt="line" class="line1">
+                
                 <div class="main-info">
                     <h1 class="main-title">Программа переподготовки сотрудников</h1>
+                    <img src="images/orig.jpg" alt="" class="main-image">
                     <p class="main-text">Наша программа профессионального обучения, 
                         позволяет сотрудникам получить новые 
                         профессии за счёт предприятия. Эта программа 
@@ -52,7 +78,7 @@
                         <button class="button" id="main-action-button">Зарегистрироваться</button>
                     </div>
                 </div>
-                <img src="images/orig.jpg" alt="" class="main-image">
+
             </div>
         </section>
 
@@ -145,5 +171,6 @@
 
     <script src="gallery.js"></script>
     <script src="script.js"></script>
+    <script src="burger.js"></script>
 </body>
 </html>

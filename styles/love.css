@@ -79,3 +79,20 @@
 .gallery_image_five {
     background-image: url("../images/image_1.png");
 }
+
+@media (max-width: 850px) {
+    .galleries {
+        flex-direction: column;
+    }
+
+    .gallery {
+        width: 100%;
+    }
+
+    .gallery_box {
+        width: 100%;
+    }
+    .gallery-item-orange {
+        padding: 40px 50px 0 50px;
+    }
+}
