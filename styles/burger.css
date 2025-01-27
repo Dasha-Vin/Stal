@@ -50,7 +50,7 @@
     gap: 20px;
 }
 
-.burger-navItem {
+.burger-navItem a {
     font-family: 'Steppe-Book', sans-serif;
     font-size: 25px;
     line-height: 34px;
