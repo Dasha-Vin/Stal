@@ -60,3 +60,9 @@
     }
 
 }
+
+@media (max-width: 767px) {
+    .header {
+        padding-left: 0;
+    }
+}
